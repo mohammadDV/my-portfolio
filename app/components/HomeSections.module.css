@@ -1,0 +1,121 @@
+.band {
+  position: relative;
+  padding-block: var(--space-8);
+}
+
+.band + .band {
+  border-top: 1px solid rgba(120, 150, 255, 0.1);
+}
+
+.inner {
+  width: min(100% - 2rem, var(--max-width));
+  margin-inline: auto;
+}
+
+.header {
+  display: grid;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+  max-width: 48rem;
+}
+
+.oneLine {
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .oneLine {
+    white-space: normal;
+  }
+}
+
+@media (min-width: 900px) {
+  .split {
+    display: grid;
+    grid-template-columns: minmax(16rem, 0.85fr) 1.45fr;
+    gap: var(--space-6);
+    align-items: start;
+  }
+
+  .split .header {
+    position: sticky;
+    top: 6rem;
+    margin-bottom: 0;
+  }
+}
+
+.more {
+  display: inline-flex;
+  margin-top: var(--space-3);
+  font-size: 0.9rem;
+  font-weight: 650;
+  text-decoration: none;
+  color: var(--color-accent-bright);
+}
+
+.more:hover {
+  color: #93c5fd;
+}
+
+.ctaBand {
+  width: min(100% - 2rem, var(--max-width));
+  margin: 0 auto var(--space-8);
+  padding: clamp(2.5rem, 6vw, 4rem);
+  border-radius: calc(var(--radius) + 0.35rem);
+  border: 1px solid var(--color-border-strong);
+  background:
+    radial-gradient(500px 220px at 80% 20%, rgba(59, 130, 246, 0.28), transparent 60%),
+    radial-gradient(420px 200px at 15% 80%, rgba(167, 139, 250, 0.18), transparent 55%),
+    linear-gradient(160deg, rgba(18, 24, 48, 0.95), rgba(8, 12, 24, 0.98));
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+}
+
+.ctaBand h2 {
+  margin: 0 auto var(--space-5);
+  max-width: none;
+  white-space: nowrap;
+  font-size: clamp(1.35rem, 3.8vw, 2.8rem);
+}
+
+@media (max-width: 520px) {
+  .ctaBand h2 {
+    white-space: normal;
+  }
+}
+
+.ecosystem {
+  display: grid;
+  gap: var(--space-5);
+  padding: var(--space-6);
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  background: rgba(10, 14, 28, 0.65);
+  backdrop-filter: blur(14px);
+}
+
+@media (min-width: 900px) {
+  .ecosystem {
+    grid-template-columns: 1fr 1.4fr;
+    align-items: center;
+  }
+}
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.2rem;
+  padding: 0.35rem 0.95rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid rgba(96, 165, 250, 0.24);
+  background: rgba(59, 130, 246, 0.08);
+  color: #dbe7ff;
+  font-size: 0.82rem;
+  font-weight: 600;
+}

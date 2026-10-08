@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="S">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="55%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#03040a"/>
+  <rect x="10" y="10" width="44" height="44" rx="12" fill="url(#g)"/>
+  <text x="50%" y="56%" text-anchor="middle" dominant-baseline="middle"
+        font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="22" font-weight="800" fill="#041028">MD</text>
+</svg>

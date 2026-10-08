@@ -1,0 +1,49 @@
+:root {
+  /* Palette inspired by my personal portfolio */
+  --color-bg: #03040a;
+  --color-bg-elevated: #070912;
+  --color-surface: rgba(14, 18, 36, 0.72);
+  --color-surface-solid: #0c1020;
+  --color-surface-2: #12182c;
+  --color-border: rgba(120, 150, 255, 0.14);
+  --color-border-strong: rgba(96, 140, 255, 0.28);
+  --color-text: #f5f7ff;
+  --color-text-muted: #9aa3bc;
+  --color-accent: #3b82f6;
+  --color-accent-bright: #60a5fa;
+  --color-accent-deep: #2563eb;
+  --color-cyan: #22d3ee;
+  --color-violet: #a78bfa;
+  --color-accent-ink: #041028;
+
+  --gradient-brand: linear-gradient(135deg, #60a5fa 0%, #3b82f6 45%, #8b5cf6 100%);
+  --gradient-card: linear-gradient(
+    160deg,
+    rgba(59, 130, 246, 0.18) 0%,
+    rgba(15, 20, 40, 0.9) 42%,
+    rgba(167, 139, 250, 0.08) 100%
+  );
+  --glow-accent: 0 0 0 1px rgba(59, 130, 246, 0.35), 0 10px 40px rgba(37, 99, 235, 0.22);
+
+  --font-display: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --font-body: "Plus Jakarta Sans", "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 5rem;
+
+  --radius: 0.85rem;
+  --radius-sm: 0.55rem;
+  --radius-pill: 999px;
+  --max-width: 72rem;
+  --header-height: 4.25rem;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --shadow-focus: 0 0 0 2px var(--color-bg), 0 0 0 4px var(--color-accent-bright);
+}
