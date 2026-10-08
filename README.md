@@ -2,7 +2,7 @@
 
 Static SPA portfolio built with **React 19** and **React Router 7** (prerendered for SEO).
 
-See [`SPEC.md`](./SPEC.md) and [`PLAN.md`](./PLAN.md). Content source draft: [`CV.md`](./CV.md).
+See [`SPEC.md`](./SPEC.md) and [`PLAN.md`](./PLAN.md).
 
 ## Scripts
 
