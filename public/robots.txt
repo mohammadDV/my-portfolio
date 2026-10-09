@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mohammaddv.dev/sitemap.xml
+Sitemap: https://mohammaddv.com/sitemap.xml

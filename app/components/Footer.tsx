@@ -1,4 +1,5 @@
 import { profile } from "~/data/profile";
+import { SafeMailto } from "./SafeMailto";
 import styles from "./Footer.module.css";
 
 export function Footer() {
@@ -27,7 +28,7 @@ export function Footer() {
           <a href={profile.telegram} rel="noopener noreferrer" target="_blank">
             Telegram
           </a>
-          <a href={`mailto:${profile.email}`}>Email</a>
+          <SafeMailto email={profile.email}>Email</SafeMailto>
         </div>
       </div>
     </footer>

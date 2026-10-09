@@ -1,47 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mohammaddv.dev</loc>
+    <loc>https://mohammaddv.com</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mohammaddv.dev/experience</loc>
+    <loc>https://mohammaddv.com/experience</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mohammaddv.dev/projects</loc>
+    <loc>https://mohammaddv.com/projects</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mohammaddv.dev/projects/telegram-game</loc>
+    <loc>https://mohammaddv.com/projects/boofstore</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mohammaddv.dev/projects/intellivy</loc>
+    <loc>https://mohammaddv.com/projects/telegram-game</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mohammaddv.dev/projects/oshtow</loc>
+    <loc>https://mohammaddv.com/projects/intellivy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mohammaddv.dev/projects/finybo</loc>
+    <loc>https://mohammaddv.com/projects/oshtow</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mohammaddv.dev/skills</loc>
+    <loc>https://mohammaddv.com/projects/finybo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mohammaddv.dev/contact</loc>
+    <loc>https://mohammaddv.com/skills</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mohammaddv.com/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

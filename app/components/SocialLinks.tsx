@@ -1,10 +1,13 @@
 import { profile } from "~/data/profile";
+import { SafeMailto } from "./SafeMailto";
 
 export function SocialLinks() {
   return (
     <ul>
       <li>
-        <a href={`mailto:${profile.email}`}>{profile.email}</a>
+        <SafeMailto email={profile.email}>
+          <span suppressHydrationWarning>{profile.email}</span>
+        </SafeMailto>
       </li>
       <li>
         <a href={profile.telegram} rel="noopener noreferrer" target="_blank">
