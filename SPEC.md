@@ -75,6 +75,7 @@ All routes prerendered at build time. Client navigation after hydration.
 | Slug | Project |
 |------|---------|
 | `boofstore` | Boofstore |
+| `varzeshpod` | Varzeshpod |
 | `telegram-game` | Telegram Game Bot (Go) |
 | `intellivy` | Intellivy |
 | `oshtow` | Oshtow |

@@ -18,6 +18,22 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    slug: "varzeshpod",
+    title: "Varzeshpod",
+    tagline: "Sports community platform for fans, analysts, and the Dream Team.",
+    description:
+      "A sports media and community platform built around the Dream Team — sports enthusiasts, analysts, and former athletes delivering matches, analysis, and memorable moments. Whether you follow football, basketball, or tennis, Varzeshpod brings fans together around sportsmanship and shared passion for the game.",
+    tech: ["Laravel 13", "Vue 3", "Started on Laravel 9"],
+    highlights: [
+      "Community-focused sports platform with the Dream Team editorial voice",
+      "Coverage spanning football, basketball, tennis, and more",
+      "Evolved from Laravel 9 to Laravel 13 with a Vue 3 frontend",
+      "Live site serving sports news, analysis, and fan engagement",
+    ],
+    links: [{ label: "Live site", href: "https://varzeshpod.com/" }],
+    featured: true,
+  },
+  {
     slug: "telegram-game",
     title: "Telegram Game Bot",
     tagline: "Concurrent quiz matchmaking and multiplayer scoring in Go.",

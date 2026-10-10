@@ -18,7 +18,7 @@ Derived from [`SPEC.md`](./SPEC.md). Execute in order; each phase has a clear do
 1. Initialize React Router 7 (framework) + React 19 + TypeScript via official template (`create-react-router` / current RR7 Vite template).
 2. Configure `react-router.config.ts`:
    - `ssr: false`
-   - `prerender`: `/`, `/experience`, `/projects`, `/projects/telegram-game`, `/projects/intellivy`, `/projects/oshtow`, `/projects/finybo`, `/skills`, `/contact`
+   - `prerender`: `/`, `/experience`, `/projects`, `/projects/boofstore`, `/projects/varzeshpod`, `/projects/telegram-game`, `/projects/intellivy`, `/projects/oshtow`, `/projects/finybo`, `/skills`, `/contact`
 3. Add Vitest + React Testing Library + jsdom; scripts: `test`, `typecheck`, `build`, `dev`.
 4. Add global CSS tokens (charcoal / slate / amber accent), display + body fonts (Google or Fontshare with `font-display: swap`), subtle gradient + grain on `body`.
 5. Create app shell: `Header`, `Footer`, `SkipLink`, outlet layout.

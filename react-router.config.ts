@@ -2,6 +2,7 @@ import type { Config } from "@react-router/dev/config";
 
 const projectSlugs = [
   "boofstore",
+  "varzeshpod",
   "telegram-game",
   "intellivy",
   "oshtow",
