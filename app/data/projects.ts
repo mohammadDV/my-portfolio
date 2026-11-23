@@ -2,6 +2,22 @@ import type { Project } from "./types";
 
 export const projects: Project[] = [
   {
+    slug: "speakloudmate",
+    title: "SpeakLoudMate",
+    tagline: "Language practice with real people — schedule, match, and talk.",
+    description:
+      "A language-learning community for real conversation practice. Learners and hosts publish weekly or one-off practice slots, claim partners on Discover, coordinate in Messages, then meet one-on-one. Between sessions, Learn offers German articles, plurals, vocabulary, prepositions, and grammar lessons with quizzes, XP, and streaks — spanning 40+ languages and a growing speaker community.",
+    tech: ["Full stack", "Scheduling", "Messaging", "Learn / gamification"],
+    highlights: [
+      "Slot publishing and partner claiming for one-on-one practice sessions",
+      "Discover, Messages, Schedule, and Profile flows for matching and coordination",
+      "Learn module with German grammar drills, quizzes, XP, and streaks",
+      "Free community platform with donation-supported hosting",
+    ],
+    links: [{ label: "Live site", href: "https://speakloudmate.com/" }],
+    featured: true,
+  },
+  {
     slug: "boofstore",
     title: "Boofstore",
     tagline: "E-commerce platform for chain stores and online sports retail.",
